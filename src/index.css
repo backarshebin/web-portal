@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #e7e6e6;
+  overflow: hidden;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.react-bootstrap-table-page-btns-ul {
+  float: right;
+  margin-top: 0px !important;
+}
+.react-bootstrap-table-pagination-total {
+  float: left;
+  margin-top: 0px !important;
+}
+
+.table tbody tr {
+  cursor: pointer;
+}
